@@ -1,5 +1,5 @@
-const cypress = require("cypress");
-const { describe } = require("mocha");
+// const cypress = require("cypress");
+// const { describe } = require("mocha");
 
 
 describe('Login Test Scenario', () =>{
@@ -12,6 +12,6 @@ describe('Login Test Scenario', () =>{
 
         .and('contain','HRM')//verify the page title contain
 
-        
+
         })
 })
